@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>
+      Family Recogniser  
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <body>
+        <center>
+            <h1 class="btn heading">
+                Family Recogniser
+            </h1><br><br>
+            <label>Model Is Trained On The Following Objects</label>
+            <br>
+            <b class="family_names">
+                Father
+                <hr>
+                Mother
+                <hr>
+                Sister
+                <hr>
+                Myself
+            </b><br><br>
+            <div id="camera"></div><br><br>
+            <div id="snapshot"></div><br><br>
+            <button onclick="capture()">Capture Image</button>
+            <br><br>
+            <button onclick="identify()">Identify</button><br><br>
+            <p>FamilyMember: <span id="family_results"></span></p>
+            <p>Accuracy: <span id="accuracy"></span></p>
+
+        </center>
+        <script src="main.js"></script>
+    </body>
+</head>
+</html>

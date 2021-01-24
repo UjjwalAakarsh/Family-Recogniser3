@@ -1,0 +1,39 @@
+body{
+    background-image: radial-gradient(circle, #455c0d, #5d7d0f, #75a011, #8ec512, #a8eb12);
+    font-family: 'Nova Round', cursive;
+    color: white;
+}
+.heading{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    color: white;
+    width: 60%;
+    font-size:30px;
+    letter-spacing: 10px;
+}
+label{
+    font-size: 25;
+    color: white;
+}
+.object_names{
+color:orangered;
+font-size: 22px;
+}
+hr{
+    width: 60%;
+}
+button{
+    background-color:aquamarine ;
+    padding: 5px;
+    font-size: 20px;
+    color: orangered;
+}
+#camera,#snapshot{
+width: 300px;
+height: 300px;
+border: 5px double white;
+border-radius: 20px;
+}
+p{
+    font-size: 25px;
+    color: orangered;
+}
